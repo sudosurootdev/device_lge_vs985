@@ -35,6 +35,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27325360128
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/lge/vs985/rootdir/etc/fstab.g3
+TARGET_REQUIRES_BUMP := true
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
