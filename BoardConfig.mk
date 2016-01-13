@@ -43,7 +43,7 @@ TARGET_RECOVERY_FSTAB := device/lge/vs985/rootdir/etc/fstab.g3
 TARGET_REQUIRES_BUMP := true
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/lge/vs985/ril/
+BOARD_RIL_CLASS += ../../../device/lge/vs985/ril/
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
