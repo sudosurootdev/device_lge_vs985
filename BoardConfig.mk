@@ -20,9 +20,6 @@
 
 TARGET_OTA_ASSERT_DEVICE := g3,vs985
 
-# Assertions
-TARGET_BOARD_INFO_FILE ?= device/lge/vs985/board-info.txt
-
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BLUETOOTH_HCI_USE_MCT := true
